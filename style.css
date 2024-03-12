@@ -17,5 +17,99 @@ tlačítko twitter          #1da1f2
 
 body {
   background-color: #bdc3c7;
+  font-family: "Open Sans", sans-serif;
 }
 
+.jmeno {
+  font-family: "Montserrat", sans-serif;  
+  color: white;
+}
+
+.profil {
+  width: 300px;
+  margin-left: 22px;
+  background-color: #31363b;
+}
+
+.hlavicka {
+  position: relative;
+  width: 300px;
+  margin-top: 28px;
+}
+
+.foto {
+  width: 300px;
+  padding-bottom: 0px;
+}
+
+.obsah {
+  width: 300px;
+  padding: 25px;
+}
+
+p {
+  color: #bdc3c7;
+  font-size: 15px;
+}
+
+.logo {
+  position: absolute;
+  bottom: -25px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #b92e81;  
+}
+
+.odkazy {
+  padding: 0;
+  margin: 0;
+}
+
+.odkazy li {
+  text-transform: UpperCase;
+  text-align: center;
+  font-weight: bold;
+  border-top: 2px solid #3f464d;
+}
+
+.odkazy a {
+  display: block;
+  text-decoration: none;
+  color: #bdc3c7;
+  padding: 15px 15px;
+}
+
+.odkazy a:hover {
+  color: white;   
+}
+
+.facebook a:hover {
+  background-color: #3b5998;
+}
+
+.twitter a:hover {
+  background-color: #1da1f2; 
+}
+
+.portfolio a:hover {
+  background-color: #e74c3c; 
+}
+
+.portfolio {
+  display: block;
+}
+
+.facebook, .twitter {
+  display: inline-block;
+  width: 50%;
+}
+
+.facebook {
+  border-right: 2px solid #3f464d;
+}
+
+.profil {
+  box-shadow: 10px 5px 5px gray;
+}
